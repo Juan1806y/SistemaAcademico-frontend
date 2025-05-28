@@ -1,0 +1,12 @@
+package co.edu.frontend.model;
+
+public class AsignaturaPrerrequisitoRequest {
+    private Long asignaturaId;
+    private Long prerrequisitoId;
+
+    public Long getAsignaturaId() { return asignaturaId; }
+    public void setAsignaturaId(Long asignaturaId) { this.asignaturaId = asignaturaId; }
+
+    public Long getPrerrequisitoId() { return prerrequisitoId; }
+    public void setPrerrequisitoId(Long prerrequisitoId) { this.prerrequisitoId = prerrequisitoId; }
+}
